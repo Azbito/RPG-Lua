@@ -1,0 +1,6 @@
+function init(self)
+	-- Add initialization code here
+	msg.post(".", "acquire_input_focus")
+	
+	msg.post("#camera", "acquire_camera_focus")
+end
