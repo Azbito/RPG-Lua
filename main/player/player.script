@@ -50,7 +50,6 @@ function update(self, dt)
 	local position = go.get_position()
 	position = position + self.direction * max_speed
 	go.set_position(position)
-	print(self.cantGoUp)
 	self.correction = vmath.vector3()
 
 	if self.direction.y < 0 then
